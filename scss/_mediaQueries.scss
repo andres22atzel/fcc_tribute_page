@@ -1,0 +1,19 @@
+@include media-desktop{
+    #img-caption{
+        text-align:center;
+    }
+    section.tribute-cronohistory ul.tribute-facts{
+        width:55vw;
+    }
+
+    section#footer p.reference {
+        width: 80vw;
+        text-align:center;
+    }
+}
+
+@include media-mobile{
+    section.tribute-cronohistory ul.tribute-facts{
+        width:70vw;
+    }
+}

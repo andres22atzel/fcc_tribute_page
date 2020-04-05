@@ -1,0 +1,173 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1020px) {
+  #img-caption {
+    text-align: center;
+  }
+  section.tribute-cronohistory ul.tribute-facts {
+    width: 55vw;
+  }
+  section#footer p.reference {
+    width: 80vw;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  section.tribute-cronohistory ul.tribute-facts {
+    width: 70vw;
+  }
+}
+
+#main {
+  font-family: "Lato", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #eeeeee;
+}
+
+#main header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 5vh;
+}
+
+#main header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-bottom: 3vh;
+}
+
+#main header h5 {
+  font-weight: 400;
+  padding-bottom: 2.5vh;
+  font-size: 1.1rem;
+}
+
+#main header #img-div {
+  padding: 2%;
+  background: #fff;
+  width: 95vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#main header #image {
+  max-width: 100%;
+  height: auto;
+}
+
+#main header #img-caption {
+  padding-top: 2vh;
+}
+
+section.tribute-cronohistory {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.tribute-cronohistory h3 {
+  padding-top: 8vh;
+  padding-bottom: 5vh;
+}
+
+section.tribute-cronohistory .tribute-facts {
+  list-style-type: disc;
+  font-weight: 400;
+  width: 40vw;
+}
+
+section.tribute-cronohistory .tribute-facts .tribute-fact {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  line-height: 1.5rem;
+  text-align: justify;
+}
+
+section.tribute-cronohistory .tribute-facts .tribute-fact span {
+  font-weight: 700;
+}
+
+section#footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section#footer div.quote {
+  text-align: justify;
+  font-style: italic;
+  font-weight: 300;
+  width: 42vw;
+  padding: 4vh 0 6vh;
+}
+
+section#footer div.quote p.tribute-quote {
+  padding-bottom: 1vh;
+}
+
+section#footer p.reference {
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding-bottom: 6vh;
+}
+/*# sourceMappingURL=main.css.map */
